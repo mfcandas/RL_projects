@@ -91,23 +91,19 @@ def update_policy(Q):
     return {k: np.argmax(v) for k, v in Q.items()}
 
 
-#%%Main flow -----------------------------------------------------------------------------------------------------------
+# %% Main flow ---------------------------------------------------------------------------------------------------------
 bj_env = gym.make('Blackjack-v0')
 print(bj_env.observation_space)
 print(bj_env.action_space)
 
 dc_final_policy, Q = mc_control(bj_env, 500000, 0.02)
 
-Q[(13, 7, False)][1]
-Q[(13, 7, False)][0]
-
-Q[(4, 4, False)]
-
-# ToDo Plot 2-D graph for X-axis: dealer-hand, Y-axis: player-hand, with/without usable ace (see Figure 5.2)
+# plot the policy with usable-ace
 player_hand, dealer_hand, _, action = zip(*[[*k, v] for k, v in dc_final_policy.items() if k[2]])  # with usable ace
-# dealer_hand = [k[1] for k in dc_final_policy.keys() if not k[2]]  # with usable ace
-# action = [v for k, v in dc_final_policy.items() if k[2]]  # with usable ace
+sns.scatterplot(x=dealer_hand, y=player_hand, size=action)
+plt.show()
 
-print(len(player_hand), len(dealer_hand), len(action))
+# plot the policy without usable-ace
+player_hand, dealer_hand, _, action = zip(*[[*k, v] for k, v in dc_final_policy.items() if not k[2]])  # with usable ace
 sns.scatterplot(x=dealer_hand, y=player_hand, size=action)
 plt.show()
