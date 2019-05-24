@@ -1,0 +1,33 @@
+
+
+run : 1 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.0
+alpha: 0.3
+gamma: 1
+Best avg reward: 9.25
+
+run : 2 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.0
+alpha: 0.2
+gamma: 1
+Best avg reward: 9.21
+
+run : 3 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.0
+alpha: 0.1
+gamma: 1
+Best avg reward: 9.3
+
+run : 4 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.0
+alpha: 0.05
+gamma: 1
+Best avg reward: 9.28

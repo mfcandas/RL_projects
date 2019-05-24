@@ -1,0 +1,193 @@
+
+
+run : 1 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.3
+gamma: 1
+Best avg reward: 8.88
+
+run : 2 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.3
+gamma: 0.9
+Best avg reward: 9.08
+
+run : 3 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.5
+gamma: 1
+Best avg reward: 9.07
+
+run : 4 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.5
+gamma: 0.9
+Best avg reward: 9.05
+
+run : 5 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.7
+gamma: 1
+Best avg reward: 9.15
+
+run : 6 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.7
+gamma: 0.9
+Best avg reward: 8.74
+
+run : 7 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.9
+gamma: 1
+Best avg reward: 8.68
+
+run : 8 ================================================
+epsilon: 0.1
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.9
+gamma: 0.9
+Best avg reward: 8.86
+
+run : 9 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.3
+gamma: 1
+Best avg reward: 8.95
+
+run : 10 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.3
+gamma: 0.9
+Best avg reward: 9.05
+
+run : 11 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.5
+gamma: 1
+Best avg reward: 8.87
+
+run : 12 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.5
+gamma: 0.9
+Best avg reward: 9.06
+
+run : 13 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.7
+gamma: 1
+Best avg reward: 8.5
+
+run : 14 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.7
+gamma: 0.9
+Best avg reward: 8.94
+
+run : 15 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.9
+gamma: 1
+Best avg reward: 8.77
+
+run : 16 ================================================
+epsilon: 0.15
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.9
+gamma: 0.9
+Best avg reward: 9.05
+
+run : 17 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.3
+gamma: 1
+Best avg reward: 8.84
+
+run : 18 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.3
+gamma: 0.9
+Best avg reward: 9.12
+
+run : 19 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.5
+gamma: 1
+Best avg reward: 9.11
+
+run : 20 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.5
+gamma: 0.9
+Best avg reward: 9.07
+
+run : 21 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.7
+gamma: 1
+Best avg reward: 8.53
+
+run : 22 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.7
+gamma: 0.9
+Best avg reward: 8.8
+
+run : 23 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.9
+gamma: 1
+Best avg reward: 8.94
+
+run : 24 ================================================
+epsilon: 0.2
+epsilon_decay: 0.99
+epsilon_min: 0.01
+alpha: 0.9
+gamma: 0.9
+Best avg reward: 8.76
